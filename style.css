@@ -55,7 +55,6 @@ div {
     position: relative;
     animation-name: box;
     animation-duration: 4s;
-    border-radius: 50%;
     width: 100;
     height: 100;
 }
