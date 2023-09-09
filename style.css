@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&display=swap');
+html {
+    background-color: #493951;
+    color: #f0f8ff;
+}
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: auto
+}
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
