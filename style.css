@@ -24,6 +24,14 @@ dd {
     font-weight: 300;
     font-size: 15px;
 }
+div {
+    background-color: cyan;
+    position: relative;
+    animation-name: box;
+    animation-duration: 4s;
+    width: 100;
+    height: 100;
+}
 @keyframes box {
     0% {
         background-color: cyan;
@@ -49,12 +57,4 @@ dd {
         left: 0px; 
         top: 400px;
     }
-}
-div {
-    background-color: cyan;
-    position: relative;
-    animation-name: box;
-    animation-duration: 4s;
-    width: 100;
-    height: 100;
 }
