@@ -16,11 +16,13 @@ p {
 }
 dt {
     font-family: 'Barlow', 'sans-serif';
+    font-weight: 300;
     font-size: 20px;
 }
 dd {
     font-family: 'Barlow', 'sans-serif';
-    font-size: 10px;
+    font-weight: 300;
+    font-size: 15px;
 }
 @keyframes box {
     0% {
@@ -48,7 +50,7 @@ dd {
         top: 400px;
     }
 }
-div:nth-child(1) {
+div {
     background-color: cyan;
     position: relative;
     animation-name: box;
