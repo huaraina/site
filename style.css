@@ -36,25 +36,25 @@ div {
     0% {
         background-color: cyan;
         left: 0px;
-        top: 400px;
+        top: 0px;
     }
     25% {
         background-color: pink; 
         left: 300px; 
-        top: 400px;
+        top: 0px;
     }
     50% {
         background-color: white; 
         left: 300px; 
-        top: 700px;
+        top: 300px;
     }
     75% {
         background-color: pink; 
         left: 0px; 
-        top: 700px;
+        top: 300px;
     }
     100% {background-color: cyan; 
         left: 0px; 
-        top: 400px;
+        top: 0px;
     }
 }
