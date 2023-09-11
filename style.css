@@ -9,12 +9,6 @@ h1 {
     font-weight: 500;
     margin: auto
 }
-div:nth-child(0) {
-    font-family: 'Barlow', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    margin: auto
-}
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
@@ -29,4 +23,32 @@ dd {
     font-family: 'Barlow', 'sans-serif';
     font-weight: 300;
     font-size: 15px;
+}
+.button {
+    label {
+        font-family: 'Barlow', sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    input {
+        font-family: 'Barlow', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        border-radius: 5px;
+        background-color: #ad509e;
+        color: #f0f8ff;
+    }
+    input[type=text] {
+        width: 200px;
+        height: 40px;
+    }
+    input[type=text]:focus {
+        width: 210px;
+        height: 50px;
+        background-color: #32367a;
+    }
+    input[type=submit] {
+        width: 10px;
+        height: 10px;
+    }
 }
