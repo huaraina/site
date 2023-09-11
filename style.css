@@ -9,6 +9,12 @@ h1 {
     font-weight: 500;
     margin: auto
 }
+div:nth-child(0) {
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: auto
+}
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
