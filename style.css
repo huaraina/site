@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&display=swap');
 html {
-    background-color: #493951;
+    background-color: #916db0;
     color: #f0f8ff;
 }
 h1 {
@@ -32,32 +32,29 @@ dd {
     }
 }
 .question input {
-    font-family: 'Barlow', sans-serif;
-    font-size: 30px;
-    font-weight: 200;
-    border-radius: 5px;
-    background-color: #ad509e;
-    color: #f0f8ff;
-}
-.question input {
     width: 200px;
-    height: 40px;
+    height: 20px;
     font-family: 'Barlow', sans-serif;
     font-size: 30px;
     font-weight: 200;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: width 0.4s ease-in-out;
     background-color: #ad509e;
     color: #f0f8ff;
 }
-.question input::placeholder {
-    border-radius: 5px;
-    width: 180px;
-    height: 26px;
-    background-color: #493951;
-}
 .question input:focus {
-    width: 100%;
-    height: 50px;
-    background-color: #32367a;
+    width: 90%;
+    height: 30px;
+    background-color: #c8a5e6;
+}
+.testButton {
+    width: 40px;
+    height: 20px;
+    background-color: #ad509e;
+    color: #f0f8ff;
+}
+.testButton:focus{
+    width: 50px;
+    height: 25px;
+    background-color: #c8a5e6;
 }
