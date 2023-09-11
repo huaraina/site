@@ -1,3 +1,3 @@
 function buttonClicked() {
-    alert(document.getElementById("test").innerHTML)
+    alert(document.getElementById("test").value)
 }
